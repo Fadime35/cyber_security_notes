@@ -1,18 +1,18 @@
 ## Temel Risk ve Tehdit Kavramları
 
-**Asset (Varlık)**
+- **Asset (Varlık)**
 
 Korunması gereken değer (veri, sistem, itibar).
 
-**Threat (Tehdit)**
+- **Threat (Tehdit)**
 
 Bir varlığa zarar verme potansiyeli olan durum.
 
-**Vulnerability (Zafiyet)**
+- **Vulnerability (Zafiyet)**
 
 Sistemdeki güvenlik açığı.
 
-**Risk**
+- **Risk**
 
 Tehditin bir zafiyeti kullanarak varlığa zarar verme olasılığı.
 
