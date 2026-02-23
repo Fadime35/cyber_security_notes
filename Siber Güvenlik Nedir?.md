@@ -2,7 +2,7 @@
 
 Siber güvenlik; bilgi sistemlerini, ağları, cihazları ve verileri yetkisiz erişim, saldırı, hasar ve veri sızıntılarına karşı koruma disiplinidir.
 
-## Amaç:
+# Amaç:
 
 - Veriyi korumak
 
