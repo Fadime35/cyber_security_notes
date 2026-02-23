@@ -32,3 +32,25 @@ SOC (Security Operations Center), güvenlik olaylarını izleyen ve müdahale ed
 #### 6) Raporlama
 
 - Olayın özeti, etkisi ve alınan aksiyonlar yazılır.
+
+---
+
+#### SIEM
+
+Log toplama ve korelasyon sistemidir.
+
+#### Log
+
+Sistemlerin oluşturduğu kayıt verileridir.
+
+#### Incident
+
+Gerçekleşmiş güvenlik olayı.
+
+#### Alert
+
+Şüpheli aktivite bildirimi.
+
+#### False Positive
+
+Gerçek tehdit olmayan alarm.
