@@ -1,13 +1,13 @@
-Siber Güvenlik Nedir?
+## Siber Güvenlik Nedir?
 
 Siber güvenlik; bilgi sistemlerini, ağları, cihazları ve verileri yetkisiz erişim, saldırı, hasar ve veri sızıntılarına karşı koruma disiplinidir.
 
-Amaç:
+## Amaç:
 
-Veriyi korumak
+- Veriyi korumak
 
-Sistem sürekliliğini sağlamak
+- Sistem sürekliliğini sağlamak
 
-İş sürekliliğini garanti altına almak
+- İş sürekliliğini garanti altına almak
 
-Yasal ve regülasyon gereksinimlerini karşılamak
+- Yasal ve regülasyon gereksinimlerini karşılamak
