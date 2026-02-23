@@ -4,12 +4,14 @@ Lateral Movement (Yatay Hareket), bir saldırganın bir sisteme ilk giriş yapt�
 
 Yani:
 
-- Önce bir bilgisayara sızar (örneğin bir çalışanın bilgisayarı).
+- Saldırgan önce bir bilgisayara sızar (örneğin bir çalışanın bilgisayarı).
 
 - Daha sonra bu bilgisayarı kullanarak aynı ağdaki başka bilgisayarlara veya sunuculara geçmeye çalışır.
 
 - Amaç genelde daha değerli hedeflere ulaşmaktır (örneğin domain controller, veritabanı sunucusu gibi).
 
-🔹 Bu teknik özellikle iç ağda yayılmak için kullanılır.
-🔹 Çoğu zaman fark edilmemek için normal kullanıcı gibi hareket edilir.
+ ---
+
+- Bu teknik özellikle iç ağda yayılmak için kullanılır.
+- Çoğu zaman fark edilmemek için normal kullanıcı gibi hareket edilir.
 
