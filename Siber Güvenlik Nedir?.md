@@ -1,87 +1,66 @@
 ## Siber Güvenlik Nedir?
 
-Siber güvenlik; bilgi sistemlerini, ağları, uygulamaları ve verileri yetkisiz erişim, saldırı, hasar ve veri sızıntılarına karşı koruma disiplinidir.
+Siber güvenlik; sistemleri, ağları, uygulamaları ve verileri yetkisiz erişim, saldırı ve hasara karşı koruma disiplinidir.
 
-#### Temel amaç:
+#### Temel Amaç
 
 - Veriyi korumak
 
 - İş sürekliliğini sağlamak
 
-- Güvenlik ihlallerini önlemek veya etkisini azaltmak
+- Yetkisiz erişimi engellemek
 
-- Siber güvenlik teknik, yönetsel ve operasyonel süreçlerin bütünüdür.
-
+- Güvenlik olaylarını tespit ve müdahale etmek
+  
 ---
 
 ## Siber Güvenlik Türleri
-   
-### 1.Network Security (Ağ Güvenliği)
 
-Ağ altyapısını ve ağ trafiğini korumayı amaçlar.
+### 1.Network Security
+
+Ağ trafiğini ve ağ altyapısını korumaya odaklanır.
 
 #### Kapsam:
 
-- Firewall yapılandırmaları
+- Firewall
 
-- IDS/IPS sistemleri
+- IDS/IPS
 
 - VPN
 
 - Network segmentation
 
-- Trafik analizi
-
 #### Amaç:
+Yetkisiz erişimi ve ağ tabanlı saldırıları engellemek.
 
-- Yetkisiz erişimi engellemek
+### 2.Application Security
 
-- Zararlı trafiği tespit etmek
-
-- Ağ içi lateral movement’ı önlemek
-
-### Application Security (Uygulama Güvenliği)
-
-Yazılım ve web uygulamalarındaki güvenlik açıklarını önlemeye odaklanır.
+Yazılımların güvenli geliştirilmesini ve korunmasını kapsar.
 
 #### Kapsam:
 
-- Güvenli yazılım geliştirme (Secure SDLC)
+- Secure coding
 
-- Kod analizi (SAST/DAST)
+- Code review
 
-- Input validation
+- Vulnerability scanning
 
-- Authentication & Authorization kontrolleri
-
-- OWASP Top 10 açıkları
+- OWASP Top 10
 
 #### Amaç:
+Uygulama açıklarını azaltmak ve veri ihlallerini önlemek.
 
-- SQL Injection, XSS gibi açıkları önlemek
+### 3.Endpoint Security
 
-- Yetkisiz erişimi engellemek
-
-- Veri bütünlüğünü korumak
-
-### Endpoint Security (Uç Nokta Güvenliği)
-
-Kullanıcı cihazlarını (PC, laptop, mobil cihaz) korumayı hedefler.
+Son kullanıcı cihazlarını (PC, laptop, mobil cihaz) korumaya odaklanır.
 
 #### Kapsam:
 
-- Antivirüs / EDR çözümleri
+- Antivirus / EDR
 
 - Patch management
 
 - Disk encryption
 
-- Device control
-
-#### Amaç:
-
-- Malware bulaşmasını önlemek
-
-- Şüpheli davranışları tespit etmek
-
-- Cihaz üzerinden iç ağa yayılımı engellemek
+#### Amaç: 
+Zararlı yazılım bulaşmasını ve cihaz üzerinden ağ sızmasını önlemek.
