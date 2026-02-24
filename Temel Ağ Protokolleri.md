@@ -24,7 +24,7 @@
 
 **Kullanıldığı servisler:** HTTP, HTTPS, FTP, SMTP
 
-#### 3-way handshake nedir?
+### 3-way handshake nedir?
 
 3-way handshake, TCP bağlantısı kurarken kullanılan üç adımlı el sıkışma sürecidir.
 
