@@ -28,7 +28,7 @@ Verinin formatını düzenler ve şifreleme işlemlerini gerçekleştirir.
 #### 7.Application (Uygulama Katmanı)
 Kullanıcının doğrudan etkileşimde bulunduğu katmandır. HTTP, FTP ve DNS gibi protokoller burada çalışır.
 
-OSI modelinin amacı, iletişimi standartlaştırmak ve teknik sorunların hangi katmanda oluştuğunu tespit etmeyi kolaylaştırmaktır.
+**OSI modelinin amacı, iletişimi standartlaştırmak ve teknik sorunların hangi katmanda oluştuğunu tespit etmeyi kolaylaştırmaktır.**
 
 ---
 
@@ -56,4 +56,4 @@ Kullanıcının kullandığı uygulama protokollerini içerir. OSI modelindeki S
 
 - TCP/IP modeli ise daha sade ve pratiktir. Gerçek ağ iletişiminde ve internet altyapısında kullanılan modeldir.
 
-Özetle, OSI modeli konuyu anlamak için; TCP/IP modeli ise gerçek dünyadaki ağ iletişimini açıklamak için kullanılır.
+**Özetle, OSI modeli konuyu anlamak için; TCP/IP modeli ise gerçek dünyadaki ağ iletişimini açıklamak için kullanılır.**
