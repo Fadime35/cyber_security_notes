@@ -24,6 +24,20 @@
 
 **Kullanıldığı servisler:** HTTP, HTTPS, FTP, SMTP
 
+#### 3-way handshake nedir?
+
+3-way handshake, TCP bağlantısı kurarken kullanılan üç adımlı el sıkışma sürecidir.
+
+**Kısaca şöyle işler:**
+
+- SYN (Synchronize) → Bağlantı başlatmak isteyen cihaz, hedefe “Bağlanmak istiyorum” mesajı gönderir.
+
+- SYN-ACK (Synchronize-Acknowledge) → Hedef cihaz, “İstek aldım ve kabul ediyorum” mesajıyla yanıt verir.
+
+- ACK (Acknowledge) → Başlatan cihaz, “Tamam, bağlantı kuruldu” mesajını gönderir.
+
+**Sonuç:** TCP bağlantısı güvenli ve senkron bir şekilde kurulmuş olur.
+
 ---
 
 ### 3.UDP (User Datagram Protocol)
