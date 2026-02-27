@@ -4,7 +4,7 @@ OSI modeli, ağ iletişimini 7 katman halinde açıklayan teorik bir modeldir. H
 
 **Amaç:** Ağdaki verinin nasıl iletildiğini ve hangi katmanın hangi işlevi yaptığını net olarak göstermek.
 
-**Katmanlar:**
+## Katmanlar:
 
 ### 1.Physical (Fiziksel Katman)
 
