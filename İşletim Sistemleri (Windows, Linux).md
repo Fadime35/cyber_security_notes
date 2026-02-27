@@ -131,3 +131,15 @@
 **Kullanım alanları:**
 
 - Sunucular, ağ yönetimi, yazılım geliştirme, siber güvenlik
+
+
+## Windows ve Linux Karşılaştırması
+
+| Özellik            | Windows        | Linux                         |
+| ------------------ | -------------- | ----------------------------- |
+| Lisans             | Ücretli        | Açık kaynak, ücretsiz         |
+| Arayüz             | GUI odaklı     | GUI ve CLI destekli           |
+| Güvenlik           | Orta           | Yüksek                        |
+| Yazılım Uyumluluğu | Çok yüksek     | Orta, bazı yazılımlar sınırlı |
+| Kullanım Alanı     | Masaüstü, oyun | Sunucu, ağ, geliştirme        |
+
