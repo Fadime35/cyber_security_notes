@@ -7,7 +7,7 @@ işlem (processing), depolama (storage), çıkış (output) birimleri olarak sı
 
 ### 1. İşlemci (CPU)
 
-- Bilgisayarın beynidir.
+Bilgisayarın beynidir.
 
 **İşlevi:** Verileri işler, komutları yürütür.
 
@@ -21,7 +21,7 @@ işlem (processing), depolama (storage), çıkış (output) birimleri olarak sı
 
 ### 2. Anakart (Motherboard)
 
-- Tüm donanım bileşenlerinin bağlandığı ana devre kartıdır.
+Tüm donanım bileşenlerinin bağlandığı ana devre kartıdır.
 
 **İşlevleri:**
 
@@ -31,7 +31,7 @@ işlem (processing), depolama (storage), çıkış (output) birimleri olarak sı
 
 ### 3. Bellek (RAM – Random Access Memory)
 
-- Geçici depolama birimidir.
+Geçici depolama birimidir.
 
 **İşlevi:** İşlemcinin hızlı erişmesi gereken verileri geçici olarak saklar.
 
@@ -45,7 +45,7 @@ işlem (processing), depolama (storage), çıkış (output) birimleri olarak sı
 
 ### 4. Depolama Birimleri
 
-- Verileri kalıcı olarak saklar.
+Verileri kalıcı olarak saklar.
 
 **Türleri:**
 
@@ -79,7 +79,7 @@ işlem (processing), depolama (storage), çıkış (output) birimleri olarak sı
 
 ### 8. Soğutma Sistemleri
 
-- İşlemci ve ekran kartı gibi bileşenler ısınır.
+İşlemci ve ekran kartı gibi bileşenler ısınır.
 
 **Soğutma yöntemleri:**
 
