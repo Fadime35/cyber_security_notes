@@ -1,6 +1,6 @@
 ## OSI Modeli (Open Systems Interconnection)
 
-OSI modeli, ağ iletişimini 7 katman halinde açıklayan teorik bir modeldir. Her katman farklı bir görev üstlenir.
+- OSI modeli, ağ iletişimini 7 katman halinde açıklayan teorik bir modeldir. Her katman farklı bir görev üstlenir.
 
 **Amaç:** Ağdaki verinin nasıl iletildiğini ve hangi katmanın hangi işlevi yaptığını net olarak göstermek.
 
