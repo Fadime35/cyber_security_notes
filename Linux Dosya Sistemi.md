@@ -58,7 +58,7 @@ Linux’ta dosya sistemi hiyerarşik bir yapıdadır. Her şey root (/) dizinind
 
 **5. Socket & Pipe**
 
-- Bunlar programlar arasında veri iletmek için kullanılan “iletişim kanalları”dır.
+- Bunlar programlar arasında veri iletmek için kullanılan iletişim kanallarıdır.
 
 - **Pipe (Borular):**  Aynı bilgisayardaki programlar arasında veri akışı sağlar.
 
