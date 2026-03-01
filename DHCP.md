@@ -17,4 +17,5 @@ Telefonunuzu Wi-Fi’a bağladığınızda modem, DHCP sayesinde ona otomatik bi
 sağlar.
 
 **Özetle:**
+
 DHCP, ağdaki cihazların otomatik ve sorunsuz şekilde internete bağlanmasını sağlayan sistemdir.
