@@ -13,7 +13,7 @@ atayan bir protokoldür.
 
 **Örnek:**
 
-Telefonunuzu Wi-Fi’a bağladığınızda modem, DHCP sayesinde ona otomatik bir IP adresi verir.Bilgisayarınızın ağ ayarlarını değiştirmeden internete bağlanabilmesini 
+Telefonunuzu Wi-Fi’a bağladığınızda modem, DHCP sayesinde ona otomatik bir IP adresi verir. Bilgisayarınızın ağ ayarlarını değiştirmeden internete bağlanabilmesini 
 sağlar.
 
 **Özetle:**
