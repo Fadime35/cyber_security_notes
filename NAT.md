@@ -10,6 +10,7 @@ yönlendirir. Yani, cihazların internete güvenli ve düzenli bir şekilde bağ
 - **Güvenlik:** Özel IP’ler internetten direkt erişilemez, bu da dış tehditlere karşı ekstra koruma sağlar.
 
 **Kullanım alanı:**
+
 Ev veya ofis ağlarında kullanılan router cihazları, NAT sayesinde cihazların internete bağlanmasını sağlar. Örneğin, bilgisayar, telefon ve tablet gibi birden 
 fazla cihaz, tek bir modem IP’si ile internete çıkabilir.
 
