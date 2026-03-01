@@ -61,7 +61,9 @@ Linux’ta dosya sistemi hiyerarşik bir yapıdadır. Her şey root (/) dizinind
 - Bunlar programlar arasında veri iletmek için kullanılan “iletişim kanalları”dır.
 
 - **Pipe (Borular):**  Aynı bilgisayardaki programlar arasında veri akışı sağlar.
+
 **Örnek:** ls | grep "txt" komutu pipe kullanır.
 
 - **Socket (Soketler):** Ağ üzerinden veya aynı makinede çalışan programlar arasında veri iletir.
+
 **Örnek:** Web tarayıcı bir sunucuya bağlandığında socket kullanır.
