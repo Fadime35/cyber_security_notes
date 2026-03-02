@@ -16,16 +16,17 @@ Linux sistemlerinde olaylar, hatalar ve sistem aktiviteleri log dosyalarında sa
 
 - Son 10 satırı görmek:
 
-tail /var/log/auth.log
-tail -f /var/log/syslog   (Gerçek zamanlı takip)
+`tail /var/log/auth.log`
+
+`tail -f /var/log/syslog`   (Gerçek zamanlı takip)
 
 - Belirli bir kelimeyi aramak:
 
-grep "error" /var/log/syslog
+`grep "error" /var/log/syslog`
 
 - Logları filtrelemek:
 
-  cat /var/log/auth.log | grep "sshd"
+`cat /var/log/auth.log | grep "sshd"`
 
   ---
 
@@ -37,4 +38,4 @@ grep "error" /var/log/syslog
 
 - man komutu ile her komutun detayına bakabilir:
 
-  man ls
+ ` man ls`
