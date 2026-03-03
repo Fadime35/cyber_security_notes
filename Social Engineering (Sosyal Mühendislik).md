@@ -106,8 +106,6 @@ Bir kişinin ekranına veya klavyesine bakarak bilgi elde etmek.
 
 - Şüpheli talepleri doğrulama
 
+- Fiziksel güvenlik önlemleri
 
-
-Fiziksel güvenlik önlemleri
-
-Kurumsal politika ve prosedürler
+- Kurumsal politika ve prosedürler
