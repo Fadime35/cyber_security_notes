@@ -65,15 +65,15 @@ Active Directory içindeki her yapı bir "object"tir.
 
 **1.User**
 
-- Kullanıcı hesabı
+Kullanıcı hesabı
 
 **2.Computer**
 
-- Domain’e bağlı bilgisayar
+Domain’e bağlı bilgisayar
 
 **3.Group**
 
-- Kullanıcıları gruplamak için kullanılır.
+Kullanıcıları gruplamak için kullanılır.
 
 **Örnek:**
 
