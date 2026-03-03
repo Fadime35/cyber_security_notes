@@ -99,7 +99,7 @@ Company
 
 Politikalar OU bazlı uygulanabilir.
 
----
+
 
 **Group Policy (GPO)**
 
