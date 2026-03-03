@@ -63,15 +63,15 @@ Kerberos, Active Directory’de kullanılan kimlik doğrulama protokolüdür.
 
 Active Directory içindeki her yapı bir "object"tir.
 
-- **User**
+**1.User**
 
 Kullanıcı hesabı
 
-- **Computer**
+**2.Computer**
 
 Domain’e bağlı bilgisayar
 
-**Group**
+**3.Group**
 
 - Kullanıcıları gruplamak için kullanılır.
 
@@ -84,7 +84,7 @@ Domain Admins
 ```
 
 
-**Organizational Unit (OU)**
+**4.Organizational Unit (OU)**
 
 OU, mantıksal klasör yapısıdır. Departmanlara göre ayrım yapılmasını sağlar.
 
@@ -101,7 +101,7 @@ Politikalar OU bazlı uygulanabilir.
 
 
 
-**Group Policy (GPO)**
+**5.Group Policy (GPO)**
 
 Merkezi güvenlik politikası yönetim sistemidir.
 
@@ -114,7 +114,7 @@ Merkezi güvenlik politikası yönetim sistemidir.
 
 
 
-**DNS ve Active Directory İlişkisi**
+**6.DNS ve Active Directory İlişkisi**
 
 - Active Directory düzgün çalışabilmek için DNS’e ihtiyaç duyar.
 
