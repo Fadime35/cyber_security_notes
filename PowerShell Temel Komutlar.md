@@ -1,195 +1,210 @@
-## PowerShell Nedir?
+## PowerShell Temel Komutlar
 
-- Windows’un gelişmiş komut satırı ve script ortamıdır.
+### PowerShell Nedir?
 
+- Windows’un gelişmiş komut satırı ortamıdır.
 - CMD’den daha güçlüdür.
+- Nesne tabanlı çalışır (text değil, object döndürür).
+- Sistem yönetimi ve siber güvenlikte çok kullanılır.
 
-- Komutlar Noun-Verb (Fiil-İsim) mantığıyla yazılır.
 
-**Örn:** Get-Process, Set-Location
+### Temel Komut Yapısı
 
-### Dosya ve Klasör İşlemleri
+PowerShell komutları genelde şu yapıdadır:
 
-**Bulunduğun dizini öğrenme**
-
+```powershell
+Verb-Noun
 ```
+
+**Örnekler:**
+
+```powershell
+Get-Process
+Get-Service
+Get-Help
+```
+
+
+### Yardım Komutları
+
+**Komut hakkında bilgi almak:**
+
+```powershell
+Get-Help Get-Process
+```
+
+**Detaylı yardım:**
+
+```powershell
+Get-Help Get-Process -Full
+```
+
+**Örnekleri görmek:**
+
+```powershell
+Get-Help Get-Process -Examples
+```
+
+### Dosya ve Klasör Komutları
+
+**Bulunduğun dizini görmek:**
+
+```powershell
 Get-Location
 ```
-**Klasör içeriğini listeleme**
 
-```
+**Klasör içeriğini listelemek:**
+
+```powershell
 Get-ChildItem
 ```
 
-Kısayol:
+Kısayollar:
 
-```
+```powershell
 ls
 dir
 ```
 
-**Klasör değiştirme**
+**Klasör değiştirmek:**
 
-```
+```powershell
 Set-Location C:\Users
 ```
 
 Kısayol:
 
-```
-cd C:\Users
+```powershell
+cd
 ```
 
-**Yeni klasör oluşturma**
+**Yeni klasör oluşturmak:**
 
-```
+```powershell
 New-Item -ItemType Directory klasorAdi
 ```
 
-**Yeni dosya oluşturma**
+**Dosya oluşturmak:**
 
-```
+```powershell
 New-Item dosya.txt
 ```
 
-**Dosya silme**
+**Dosya silmek:**
 
-```
+```powershell
 Remove-Item dosya.txt
 ```
 
-**Klasör silme**
+### Sistem Bilgisi Komutları
 
-```
-Remove-Item klasorAdi -Recurse
-```
+**Çalışan işlemleri görmek:**
 
-### Dosya İçeriği İşlemleri
-
-**Dosya içeriğini görüntüleme**
-
-```
-Get-Content dosya.txt
-```
-
-**Dosyaya yazı ekleme**
-
-```
-Add-Content dosya.txt "Merhaba"
-```
-
-**Dosyayı tamamen yeniden yazma**
-
-```
-Set-Content dosya.txt "Yeni içerik"
-```
-
-### Sistem ve İşlem (Process) Komutları
-
-**Çalışan işlemleri listeleme**
-
-```
+```powershell
 Get-Process
 ```
 
-**Belirli bir işlemi arama**
+**Belirli bir işlemi görmek:**
 
-```
+```powershell
 Get-Process chrome
 ```
 
-**İşlem sonlandırma**
+**İşlem sonlandırmak:**
 
-```
+```powershell
 Stop-Process -Name chrome
 ```
 
-### Ağ (Network) Komutları
+**Servisleri listelemek:**
 
-**IP bilgisi görüntüleme**
-
+```powershell
+Get-Service
 ```
+
+**Çalışan servisleri filtrelemek:**
+
+```powershell
+Get-Service | Where-Object {$_.Status -eq "Running"}
+```
+
+
+### Ağ Komutları
+
+**IP bilgisi:**
+
+```powershell
 ipconfig
 ```
 
-```
-Get-NetIPAddress
+**Detaylı IP bilgisi:**
+
+```powershell
+ipconfig /all
 ```
 
-**Ping atma**
+**Ağ bağlantılarını görmek:**
 
-```
-Test-Connection google.com
-```
-
-**Açık portları görüntüleme**
-
-```
+```powershell
 netstat -an
 ```
 
-### Kullanıcı ve Sistem Bilgisi
+**DNS sorgusu:**
 
-**Bilgisayar adı**
-
-```
-hostname
+```powershell
+nslookup google.com
 ```
 
-**Kullanıcı bilgisi**
 
-```
-whoami
-```
+### Filtreleme (Where-Object)
 
-**Sistem bilgileri**
+PowerShell’de filtreleme çok önemlidir.
 
-```
-Get-ComputerInfo
-```
-
-### Filtreleme
-
-PowerShell’in en güçlü tarafı filtrelemedir.
-
-**Where-Object kullanımı**
-
-```
+```powershell
 Get-Process | Where-Object {$_.CPU -gt 100}
 ```
+ 
+CPU kullanımı 100’den büyük işlemleri gösterir.
 
-CPU değeri 100’den büyük olan işlemleri gösterir.
 
+### Çıktıyı Dosyaya Yazma
 
-### Pipe (|) Mantığı
+**Dosyaya yazmak:**
 
-Pipe (|) = Bir komutun çıktısını diğerine gönderir.
-
-**Örnek:**
-
-```
-Get-Process | Sort-Object CPU -Descending
+```powershell
+Get-Process > processes.txt
 ```
 
-CPU kullanımına göre sıralar.
+**Dosyaya ekleme yapmak:**
 
-
-### Yardım Komutları
-
-**Komut hakkında bilgi**
-
-```
-Get-Help Get-Process
+```powershell
+Get-Process >> processes.txt
 ```
 
-**Örneklerle yardım**
 
-```
-Get-Help Get-Process -Examples
+### Değişken Tanımlama
+
+```powershell
+$isim = "Fadime"
 ```
 
-**Komut arama**
+**Kullanımı:**
 
+```powershell
+Write-Output $isim
 ```
+
+### Komutları Listelemek
+
+**Tüm komutları görmek:**
+
+```powershell
+Get-Command
+```
+
+**“process” içeren komutları görmek:**
+
+```powershell
 Get-Command *process*
 ```
+
