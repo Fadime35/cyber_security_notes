@@ -14,7 +14,7 @@ Phishing, kullanıcıları kandırarak hassas bilgilerini (şifre, kredi kartı,
 
 Kurbanı kandır → Güven oluştur → Bilgiyi al
 
-**Phishing Nasıl Çalışır?**
+### Phishing Nasıl Çalışır?
 
 - Saldırgan sahte bir e-posta, mesaj veya web sitesi oluşturur.
 
