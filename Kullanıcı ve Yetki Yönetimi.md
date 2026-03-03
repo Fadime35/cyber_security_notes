@@ -77,6 +77,7 @@ Kimliği doğrulanan kullanıcının sistem üzerinde hangi işlemleri yapabilec
 **Önemli fark:**
 
 Authentication, “Kim olduğunu doğrular.”
+
 Authorization, “Ne yapabileceğini belirler.”
 
 ### 5. Kullanıcı Türleri
