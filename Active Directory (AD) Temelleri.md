@@ -126,7 +126,7 @@ Merkezi güvenlik politikası yönetim sistemidir.
 
 Active Directory, kurumsal ağların merkezidir.
 
-Saldırı senaryosu genelde şu şekilde ilerler:
+**Saldırı senaryosu genelde şu şekilde ilerler:**
 
 1. Bir kullanıcı hesabı ele geçirilir
 2. Yetki yükseltilir
