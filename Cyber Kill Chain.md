@@ -130,7 +130,7 @@ Saldırgan asıl hedefini gerçekleştirir.
 
 ---
 
-## Cyber Kill Chain saldırıyı 7 aşamada açıklar:
+### Cyber Kill Chain saldırıyı 7 aşamada açıklar:
 
 - Reconnaissance (Keşif)
 
