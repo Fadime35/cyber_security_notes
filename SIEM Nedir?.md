@@ -131,8 +131,6 @@ SIEM sistemi olmadan büyük bir ağdaki güvenlik olaylarını takip etmek çok
 
 ### Örnek SIEM Araçları
 
-**En yaygın SIEM araçları:**
-
 - Splunk
 
 - IBM QRadar
