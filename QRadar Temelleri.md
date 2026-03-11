@@ -141,19 +141,19 @@ QRadar bu iki olayı birleştirerek saldırı tespit edebilir.
 
 ## QRadar’da Kullanılan Temel Kavramlar
 
-**Log Source**
+### Log Source
 
 Log gönderen cihaz
 
-**Rule**
+### Rule
 
 Saldırı tespit kuralları
 
-**Offense**
+### Offense
 
 Tespit edilen güvenlik olayı
 
-**Magnitude**
+### Magnitude
 
 Olayın risk seviyesi
 
