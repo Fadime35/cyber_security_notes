@@ -115,6 +115,8 @@ Uygulama performansını takip etmek
 
 Sunucu ve sistem aktivitelerini izlemek
 
+---
+
 ### SOC Analisti Açısından Önemi
 
 **SOC analistleri ELK Stack kullanarak:**
