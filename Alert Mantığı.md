@@ -1,4 +1,4 @@
-Alert Mantığı (Siber Güvenlikte Alarm Sistemi)
+## Alert Mantığı (Siber Güvenlikte Alarm Sistemi)
 
 Alert, güvenlik sistemlerinin şüpheli veya tehlikeli bir olay tespit ettiğinde oluşturduğu uyarıdır. Bu uyarılar genellikle SIEM, IDS/IPS, firewall veya endpoint
 güvenlik sistemleri tarafından üretilir.
