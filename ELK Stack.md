@@ -84,7 +84,7 @@ Verilerin görselleştirildiği arayüzdür.
 
 Kullanıcılar Kibana üzerinden log analizini kolayca yapabilir.
 
-### ELK Veri Akışı
+## ELK Veri Akışı
 
 ELK sisteminde veri şu şekilde ilerler:
 
