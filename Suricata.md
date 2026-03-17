@@ -94,3 +94,20 @@ Bilinen saldırı imzalarına göre çalışır.
 
 Normal dışı davranışları tespit eder.
 
+## Suricata vs Snort
+
+### Suricata:
+
+- Daha hızlı (multi-thread)
+
+- Daha fazla protokol analizi
+
+- Modern mimari
+
+### Snort:
+
+- Daha eski ve yaygın
+
+- Daha fazla dokümantasyon
+  
+
