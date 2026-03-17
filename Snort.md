@@ -79,23 +79,23 @@ Action Protocol Source_IP Source_Port → Destination_IP Destination_Port (Optio
 
 ## Snort Kural Bileşenleri
 
-**Action**
+### Action
 
 Ne yapılacağını belirler (alert, log, drop)
 
-**Protocol**
+### Protocol
 
 TCP, UDP, ICMP
 
-**Source / Destination**
+### Source / Destination
 
 Kaynak ve hedef IP adresleri
 
-**Port**
+### 3Port
 
 Hangi portların kontrol edileceği
 
-**Options**
+### Options
 
 Detaylı kontrol ve mesaj bilgileri
 
