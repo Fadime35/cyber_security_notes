@@ -80,7 +80,7 @@ Ağ trafiğini analiz eder.
 
 - Tüm ağdaki veri paketlerini inceler
 
-### 2) Host-Based (HIDS / HIPS)**
+### 2) Host-Based (HIDS / HIPS)
 
 Tek bir cihaz üzerinde çalışır.
 
@@ -92,7 +92,7 @@ Tek bir cihaz üzerinde çalışır.
 
 ## Tespit Yöntemleri
 
-### 1) Signature-Based Detection**
+### 1) Signature-Based Detection
 
 - Bilinen saldırı imzalarına göre çalışır.
 
@@ -104,7 +104,7 @@ Tek bir cihaz üzerinde çalışır.
 
 - Yeni saldırıları kaçırabilir
 
-### 2) Anomaly-Based Detection**
+### 2) Anomaly-Based Detection
 
 - Normal davranışı öğrenir ve anormal aktiviteleri tespit eder.
 
