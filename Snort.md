@@ -3,8 +3,6 @@
 Snort, açık kaynaklı bir IDS/IPS (saldırı tespit ve önleme sistemi) aracıdır. Ağ trafiğini analiz ederek zararlı aktiviteleri tespit eder ve kurallara göre
 uyarı üretir veya trafiği engeller.
 
-Snort, Cisco Systems tarafından geliştirilmiştir.
-
 **Amaç**:
 
 - Ağ trafiğini izlemek
@@ -63,8 +61,6 @@ Action Protocol Source_IP Source_Port → Destination_IP Destination_Port (Optio
 
 ``` alert tcp any any -> 192.168.1.10 80 (msg:"HTTP saldırı denemesi"; sid:1001;) ```
 
-**Açıklama:**
-
 **alert** → Alarm üret
 
 **tcp** → TCP protokolü
@@ -79,31 +75,31 @@ Action Protocol Source_IP Source_Port → Destination_IP Destination_Port (Optio
 
 ## Snort Kural Bileşenleri
 
-### Action
+### 1) Action
 
-Ne yapılacağını belirler (alert, log, drop)
+- Ne yapılacağını belirler (alert, log, drop)
 
-### Protocol
+### 2) Protocol
 
-TCP, UDP, ICMP
+- TCP, UDP, ICMP
 
-### Source / Destination
+### 3) Source / Destination
 
-Kaynak ve hedef IP adresleri
+- Kaynak ve hedef IP adresleri
 
-### Port
+### 4) Port
 
-Hangi portların kontrol edileceği
+- Hangi portların kontrol edileceği
 
-### Options
+### 5) Options
 
-Detaylı kontrol ve mesaj bilgileri
+- Detaylı kontrol ve mesaj bilgileri
 
 ## Snort Tespit Yöntemleri
 
-### Signature-Based
+### 1) Signature-Based
 
-Bilinen saldırı imzalarına göre çalışır.
+- Bilinen saldırı imzalarına göre çalışır.
 
 **Örnek:**
 
@@ -113,7 +109,7 @@ Bilinen saldırı imzalarına göre çalışır.
 
 ### Anomaly-Based
 
-Normal dışı davranışları tespit eder.
+- Normal dışı davranışları tespit eder.
 
 ## Snort Kullanım Alanları
 
