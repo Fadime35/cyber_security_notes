@@ -91,7 +91,7 @@ TCP, UDP, ICMP
 
 Kaynak ve hedef IP adresleri
 
-### 3Port
+### Port
 
 Hangi portların kontrol edileceği
 
