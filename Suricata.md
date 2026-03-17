@@ -84,11 +84,11 @@ Action Protocol Source_IP Source_Port → Destination_IP Destination_Port (Optio
 
 ### 1) Signature-Based Detection
 
-Bilinen saldırı imzalarına göre çalışır.
+- Bilinen saldırı imzalarına göre çalışır.
 
 ### 2) Anomaly-Based Detection
 
-Normal dışı davranışları tespit eder.
+- Normal dışı davranışları tespit eder.
 
 ## Suricata vs Snort
 
