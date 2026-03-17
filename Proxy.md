@@ -63,7 +63,7 @@ Sunucu tarafında bulunur.
 
 - Güvenlik
 
-###3) Transparent Proxy
+### 3) Transparent Proxy
 
 Kullanıcı farkında olmadan çalışır.
 
