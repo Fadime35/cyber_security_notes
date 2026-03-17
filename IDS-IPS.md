@@ -52,9 +52,9 @@ IPS, IDS’den farklı olarak saldırıları sadece tespit etmekle kalmaz, aynı
 
 Bir saldırgan SQL Injection denemesi yaparsa IPS bu isteği engelleyebilir.
 
-### IDS vs IPS Farkı
+##  IDS vs IPS Farkı
 
-**IDS:**
+### IDS:
 
 - Pasif sistem
 
@@ -62,7 +62,7 @@ Bir saldırgan SQL Injection denemesi yaparsa IPS bu isteği engelleyebilir.
 
 - Trafiği engellemez
 
-**IPS:**
+### IPS:
 
 - Aktif sistem
 
@@ -70,9 +70,9 @@ Bir saldırgan SQL Injection denemesi yaparsa IPS bu isteği engelleyebilir.
 
 - Trafiğe müdahale eder
 
-### IDS / IPS Türleri
+##  IDS / IPS Türleri
 
-**Network-Based (NIDS / NIPS)**
+### 1) Network-Based (NIDS / NIPS)
 
 Ağ trafiğini analiz eder.
 
@@ -80,7 +80,7 @@ Ağ trafiğini analiz eder.
 
 - Tüm ağdaki veri paketlerini inceler
 
-**Host-Based (HIDS / HIPS)**
+### 2) Host-Based (HIDS / HIPS)**
 
 Tek bir cihaz üzerinde çalışır.
 
@@ -90,11 +90,11 @@ Tek bir cihaz üzerinde çalışır.
 
 - Sistem aktivitelerini kontrol eder
 
-### Tespit Yöntemleri
+## Tespit Yöntemleri
 
-**Signature-Based Detection**
+### 1) Signature-Based Detection**
 
-Bilinen saldırı imzalarına göre çalışır.
+- Bilinen saldırı imzalarına göre çalışır.
 
 **Özellik:**
 
@@ -104,9 +104,9 @@ Bilinen saldırı imzalarına göre çalışır.
 
 - Yeni saldırıları kaçırabilir
 
-**Anomaly-Based Detection**
+### 2) Anomaly-Based Detection**
 
-Normal davranışı öğrenir ve anormal aktiviteleri tespit eder.
+- Normal davranışı öğrenir ve anormal aktiviteleri tespit eder.
 
 **Özellik:**
 
